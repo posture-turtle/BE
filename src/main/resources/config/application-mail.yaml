@@ -16,4 +16,4 @@ spring:
           writetimeout: 5000
 
 mail:
-  from: ${MAIL_USERNAME}
+  from: ${MAIL_FROM:${MAIL_USERNAME}}
